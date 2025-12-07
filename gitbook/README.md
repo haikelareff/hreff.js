@@ -1,19 +1,37 @@
 ---
-description: Welcome to your team’s developer platform
+description: A collection of developer toolkit
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/2AwfWOGBWBxQmyvHedqW/
 ---
 
-# Developer Platform
+# hreff.dev
 
-<h2 align="center">Developer platform template</h2>
+## Developer platform template
 
-<p align="center">Welcome to your team’s new developer platform</p>
+<details>
 
-<p align="center"><a href="http://app.gitbook.com/join" class="button primary">Sign up</a> <a href="http://app.gitbook.com/join" class="button secondary">Log in</a></p>
+<summary>Convex </summary>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>No code</strong></td><td>Get started with the developer platform in 5 minutes.</td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/0ylI3Gg9NdoXst9KSCM2/">Documentation</a></td><td><a href=".gitbook/assets/no-code.jpg">no-code.jpg</a></td></tr><tr><td><h4><i class="fa-server">:server:</i></h4></td><td><strong>Hosted</strong></td><td>Learn more about hosting the developer platform.</td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/0ylI3Gg9NdoXst9KSCM2/">Documentation</a></td><td><a href=".gitbook/assets/hosted.jpg">hosted.jpg</a></td></tr><tr><td><h4><i class="fa-terminal">:terminal:</i></h4></td><td><strong>API reference</strong></td><td>Browse, test, and implement APIs.</td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/ZZMaRan2cgGnOV6e6QIE/">API Reference</a></td><td><a href=".gitbook/assets/api-reference.jpg">api-reference.jpg</a></td></tr></tbody></table>
+A powerful engine that do almost all the heavy work as backend
+
+</details>
+
+<table><thead><tr><th>Project</th><th>Status</th><th data-type="content-ref">Url</th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="files"></th></tr></thead><tbody><tr><td><h4><a data-footnote-ref href="#user-content-fn-1">hallm.io</a></h4></td><td></td><td></td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/0ylI3Gg9NdoXst9KSCM2/">Documentation</a></td><td><a href=".gitbook/assets/no-code.jpg">no-code.jpg</a></td></tr><tr><td><h4>Tools &#x26; SDK</h4></td><td></td><td></td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/0ylI3Gg9NdoXst9KSCM2/">Documentation</a></td><td><a href=".gitbook/assets/hosted.jpg">hosted.jpg</a></td></tr><tr><td><h4>UI library</h4></td><td></td><td></td><td><a href="https://app.gitbook.com/o/kYMNZp1vBXBr5g8v8ZRf/s/ZZMaRan2cgGnOV6e6QIE/">API Reference</a></td><td><a href=".gitbook/assets/api-reference.jpg">api-reference.jpg</a></td></tr></tbody></table>
 
 {% columns %}
 {% column %}
@@ -28,7 +46,7 @@ No guesswork, no complexity—just your first successful call, fast.
 
 {% column %}
 {% code title="index.js" overflow="wrap" %}
-```javascript
+```mts
 // Import the SDK
 import ExampleAPI from "example-api";
 
@@ -64,3 +82,5 @@ Read guides, watch tutorials, and learn more about working with the developer pl
 <p align="center">Join our Discord community or create your first PR in just a few steps.</p>
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-discord">:discord:</i></h4></td><td><strong>Discord community</strong></td><td>Join our Discord community to post questions, get help, and share resources with over 3,000 like-minded developers.</td><td><a href="https://www.gitbook.com/" class="button secondary">Join Discord</a></td><td></td></tr><tr><td><h4><i class="fa-github">:github:</i></h4></td><td><strong>GitHub</strong></td><td>Our product is 100% open source and built by developers just like you. Head to our GitHub repository to learn how to submit your first PR.</td><td><a href="https://www.gitbook.com/" class="button secondary">Submit a PR</a></td><td></td></tr></tbody></table>
+
+[^1]: projects
